@@ -6,17 +6,18 @@ SITEURL = 'https://harvard-iacs.github.io/2020-CS109B'
 
 GITHUB = 'https://github.com/Harvard-IACS/2020-CS109B'
 
-COLOR = '#8996A0'
+COLOR = '#6666ff'
 
 MENUITEMS = [
     ('Syllabus', 'pages/syllabus.html'),
-    #('Calendars', 'pages/calendars.html'),
+    ('Calendars', 'pages/calendars.html'),
     ('Schedule', 'pages/schedule.html'),
-    #('Materials', 'pages/materials.html'),
+    ('Materials', 'pages/materials.html'),
     #('Videos', 'pages/videos.html'),
+    ('Modules', 'pages/modules.html'),
     #('Projects', 'pages/projects.html'),
     #('FAQ', 'pages/faq.html'),
-    #('Resources', 'pages/resources.html')
+    ('Resources', 'pages/resources.html')
 
 #    ('Sections', 'category/sections.html')
 ]
@@ -74,7 +75,7 @@ IGNORE_FILES = ['.ipynb_checkpoints', 'README.md', "*.html"]
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-STATIC_PATHS = ['lectures', 'labs', 'homeworks', 'a-sec', 'sections', 'wiki', 'images', 'projects', 'slides', 'data']
+STATIC_PATHS = ['lectures', 'labs', 'homeworks', 'a-sections', 'sections', 'wiki', 'images', 'projects', 'slides', 'data']
 
 DIRECT_TEMPLATES = ['index', 'category', 'tags', 'search']
 

@@ -13,10 +13,10 @@ CS 109b, AC 209b, Stat 121b, or CSCI E-109b
 **Lab Leaders:** Chris Tanner & Eleni Kaxiras
 
 
-**Lectures:** Mon and Wed 1:30‐2:45pm in NW B103
-**Labs:** Monday 4:30-5:45pm & 6:00-7:15pm in Pierce Hall 301 (identical material at both times)
-**Advanced Sections:** Wed 4:30-5:45pm Location TBD
-**Office Hours:** TBD
+**Lectures:** Mon and Wed 1:30‐2:45pm in NW B103<br/>
+**Labs:** Monday 4:30-5:45pm & 6:00-7:15pm in Pierce Hall 301 (identical material at both times)<br/>
+**Advanced Sections:** Wed 4:30-5:45pm in Maxwell-Dworkin G115<br/>
+**Office Hours:** See <a href="pages/calendars.html"> weekly calendar</a> for times and locations
 
 **Prerequisites:** CS 109a, AC 209a, Stat 121a, or CSCI E-109a or the equivalent.
 
@@ -72,10 +72,8 @@ Upon successful completion of this course, you should feel comfortable with the 
 
 ### Course Components <a name='course-components'></a>
 There will be live video feed available only to continuing education students for lectures, labs, and advanced sections. Recordings for all other students will be available within 24 hrs.
-
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
+<br/>
+Video streams and recordings can be accessed from the <a href="https://canvas.harvard.edu/courses/65462/external_tools/61068">Videos</a> section on Canvas.
 
 #### Lectures <a name='lectures'></a>
 The class meets twice a week for lectures. Attending lectures is a crucial component of learning the material presented in this course.
@@ -93,13 +91,12 @@ At the end of each lecture, we will ask you to take a short, graded quiz on the 
 #### Advanced Sections <a name='advanced-sections'></a>
 The course will include advanced sections for 209b students and will cover a different topic per week. &nbsp;These are 75 min lectures and they will cover advanced topics like the mathematical underpinnings of the methods seen in lecture and lab and extensions of those methods. &nbsp;The material covered in the advanced sections is </span><strong>required </strong> for all AC209b students. Tentative topics are:
 
-* Earth <span>Mover's Distance
-* Dropout
-* ConvNets: LeNet, AlexNet, VGG-15, ResNet and Inception
-* LSTM, GRU in NLP
-* Neural style transfer learning
-* Deep Reinforcement Learning
-* Variational Inference</span><br /><br />
+* ResNet, Dense-Net, res-Next and Inception and transfer learning
+* Segmentation Techniques, YOLO, Unet and M-RCNN
+* RNN, Echo State
+* Variational Inference
+* GANS. Cycle GANS, etc.
+* RL
 
 #### Exams <a name='exams'></a>
 There are no exams in this course.
@@ -119,11 +116,14 @@ There will be eight graded homework assignments. Some of them will be due one we
 
 ### Course Resources <a name='course-resources'></a>
 #### Online Materials <a name='online-materials'></a>
-All course materials, including lecture notes, lab notes, and section notes will be published in the class GitHub (available soon).
+All course materials, including lecture notes, lab notes, and section notes will be published on the <a href="https://github.com/Harvard-IACS/2020-CS109B/tree/master/content">course GitHub repo</a> as well as the public site's <a href="https://harvard-iacs.github.io/2020-CS109B/pages/materials.html">Materials section</a>.
+<br/>
+**Note:** Lecture content for weeks 1-3 is only available to registered students through the Materals section.
+<br/>
 Assignments will only be posted on Canvas.
 
 #### Working Environment
-You will be working in Jupyter Notebooks which you can run in your own machine or in the SEAS JupyterHub cloud (details on this to come).
+You will be working in Jupyter Notebooks which you can run in your own machine or in the SEAS <a href="https://canvas.harvard.edu/courses/65462/external_tools/60899?display=borderless">JupyterHub</a> cloud (see <a href="https://harvard-iacs.github.io/2020-CS109B/labs/lab01/">lab 1</a> for details).
 
 #### Recommended Textbooks <a name="recommended-textbooks"></a>
 
@@ -144,14 +144,6 @@ For questions about homework, course content, package installation, the process 
 * <strong>send an email to the Helpline</strong>&nbsp; cs109b2020@gmail.com for administrative issues, regrade requests, and non-content specific questions.
 *  <strong>for personal matters</strong> that you do not feel comfortable sharing with the TFs, you may send an email to either or both of the instructors.
 
-<br>
-
-**(syllabus continued on next page)**
-
-<div style="page-break-after: always; visibility: hidden">
-\pagebreak
-</div>
-
 ### Course Policies and Expectations <a name='course-policies-and-expectations'></a>
 
 #### Grading for CS109b, STAT121b, and CS209b (tentative):<a name='grading'></a>
@@ -162,12 +154,11 @@ Your final score for the course will be computed using the following weights:
 
 | Assignment              | Final Grade Weight |
 |-------------------------|--------------------|
-| Paired Homework (6)     | 46%                |
-| Individual Homework (2) | 20%               |
+| Paired Homework (6)     | 47%                |
+| Individual Homework (2) | 21%                |
 | Quizzes                 | 8%                 |
 | Ed Exercises            | 4%                 |
 | Project                 | 20%                |
-| Participation           | 2%                 |
 | **Total**               | **100%**           |
 
 **Note:** Regular homework (for everyone) counts as 5 points. 209b extra homework counts as 1 point.
@@ -177,11 +168,10 @@ Your final score for the course will be computed using the following weights:
 
 | Assignment              | Final Grade Weight |
 |-------------------------|--------------------|
-| Paired Homework (6)     | 50%                |
-| Individual Homework (2) | 22%                |
+| Paired Homework (6)     | 51%                |
+| Individual Homework (2) | 23%                |
 | Ed Exercises            | 4%                |
 | Project                 | 22%                |
-| Participation           | 2%                 |
 | **Total**               | **100%**           |
 
 </br>
